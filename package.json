@@ -15,9 +15,16 @@
     "prepare": "husky"
   },
   "dependencies": {
+    "@pdfme/common": "^4.3.2",
+    "@pdfme/generator": "^4.3.2",
+    "@pdfme/schemas": "^4.3.2",
+    "@pdfme/ui": "^4.3.2",
     "@reduxjs/toolkit": "^2.2.1",
     "@tanstack/react-query": "^5.24.1",
+    "antd": "^5.20.3",
     "axios": "^1.6.7",
+    "file-saver": "^2.0.5",
+    "jszip": "^3.10.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.50.1",
@@ -26,6 +33,7 @@
   },
   "devDependencies": {
     "@tanstack/eslint-plugin-query": "^5.20.1",
+    "@types/file-saver": "^2.0.7",
     "@types/node": "^20.11.20",
     "@types/react": "^18.2.56",
     "@types/react-dom": "^18.2.19",
