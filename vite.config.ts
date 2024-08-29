@@ -15,6 +15,7 @@ export default defineConfig({
     }),
   ],
   build: {
+    outDir: "docs",
     sourcemap: false,
     minify: "esbuild",
     rollupOptions: {
@@ -33,6 +34,7 @@ export default defineConfig({
       },
     },
   },
+  base: "",
   resolve: {
     alias: {
       "@": resolve(__dirname, "./src"),
