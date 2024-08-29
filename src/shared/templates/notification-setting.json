@@ -28,12 +28,9 @@
         "underline": false,
         "required": false,
         "readOnly": false,
-        "fontName": "ja_noto_sans",
         "dynamicFontSize": { "min": 4, "max": 72, "fit": "vertical" }
       },
       "property_name": {
-        "fontName": "ja_noto_sans",
-
         "type": "text",
         "content": "",
         "position": { "x": 47.09, "y": 61.7 },
@@ -55,8 +52,6 @@
         "dynamicFontSize": { "min": 4, "max": 72, "fit": "vertical" }
       },
       "room_number": {
-        "fontName": "ja_noto_sans",
-
         "type": "text",
         "content": "",
         "position": { "x": 47.09, "y": 82.02 },
@@ -78,8 +73,6 @@
         "dynamicFontSize": { "min": 4, "max": 72, "fit": "vertical" }
       },
       "contacts": {
-        "fontName": "ja_noto_sans",
-
         "type": "text",
         "content": "",
         "position": { "x": 18, "y": 106.1 },
@@ -100,8 +93,6 @@
         "readOnly": false
       },
       "tips": {
-        "fontName": "ja_noto_sans",
-
         "type": "text",
         "content": "",
         "position": { "x": 11.11, "y": 142.36 },
