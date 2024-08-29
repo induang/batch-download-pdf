@@ -21,7 +21,7 @@ self.onmessage = async function (e) {
             stack: error.stack,
           });
         });
-        await sleep(1000);
+        await sleep(3000);
         const pdfBlob = new Blob([pdf], { type: "application/pdf" });
         zip.file(`file-${i + index + 1}.pdf`, pdfBlob);
         generatedCount++;

@@ -11,7 +11,7 @@ interface InitPDFViewerProps {
 
 export function useInitPDFViewer({ template }: InitPDFViewerProps) {
   const viewer = useRef<Viewer | null>(null);
-  const containerRef = useRef<HTMLElement>(null);
+  const containerRef = useRef<HTMLDivElement>(null);
   const { font } = usePDFmeFont();
 
   useEffect(() => {

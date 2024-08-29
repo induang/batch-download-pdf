@@ -8,7 +8,7 @@ import { useInitPDFViewer, usePDFViewerHandlers } from "./hooks";
 
 interface NotificationFormField {
   tips: string;
-  contacts: string[];
+  contacts: { label: string; content: string }[];
 }
 
 export default function () {
@@ -140,6 +140,10 @@ export default function () {
             </Button>
           </Space>
         </div>
+      </Card>
+
+      <Card title="跳转到其他页面, 模拟用户到别的页面进行别的操作">
+        <Button onClick={() => navigate("/other")}>跳转</Button>
       </Card>
     </ConfigProvider>
   );
